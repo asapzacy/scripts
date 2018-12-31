@@ -5,3 +5,5 @@
  .ssl/ 
  .node_modules/ 
  yarn-error.log
+
+_*.sh
