@@ -1,0 +1,7 @@
+.DS_Store 
+ .vscode/ 
+
+ .env/ 
+ .ssl/ 
+ .node_modules/ 
+ yarn-error.log
