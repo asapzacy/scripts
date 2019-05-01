@@ -3,8 +3,8 @@
 USERNAME='asapzacy'
 REPO_NAME=$1
 
-mkdir $REPO_NAME
-cd $REPO_NAME
+cd ~/code
+mkdir $REPO_NAME && cd $REPO_NAME
 
 curl -u $USERNAME https://api.github.com/user/repos -d "{\"name\": \"$REPO_NAME\"}"
 
